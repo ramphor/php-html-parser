@@ -325,7 +325,7 @@ class Tag
         // add the attributes
         foreach (\array_keys($this->attr) as $key) {
             try {
-                $attributeDTO = $this->getAttribute($key);
+                $attributeDTO = $this->getAttribute((string)$key);
             } catch (AttributeNotFoundException $e) {
                 // attribute that was in the array not found in the array... let's continue.
                 continue;

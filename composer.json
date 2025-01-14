@@ -20,7 +20,7 @@
         "paquettg/string-encode": "~1.0.0",
         "php-http/httplug": "^2.1",
         "ramphor/httplug-guzzle6-adapter": "^2.0.2",
-        "guzzlehttp/psr7": "^1.6",
+        "guzzlehttp/psr7": "^2.7.0",
         "myclabs/php-enum": "^1.7"
     },
     "require-dev": {
